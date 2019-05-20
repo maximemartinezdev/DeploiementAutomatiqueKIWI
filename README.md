@@ -47,6 +47,6 @@
  AWS permet de créer un pipeline de déploiement continu. Elle récupére le projet sur une branche spécifique d'un projet git
  (example prod) et permet de le déployer sur un serveur.
  
- Cette solution comporte que des points positifs et ne nécéssite pas de développement spécifique. Cependant, il ne faudrait téléverser que le dossier "dist" sur la branche Git. 
+ Cette solution comporte que des points positifs et ne nécéssite pas de développement spécifique. Cependant, il  faudrait téléverser que le dossier "dist" sur la branche Git. 
 
  Certaines actions comme le grunt build serait encore a réalser manuellement et les commits seraient compliqués.
