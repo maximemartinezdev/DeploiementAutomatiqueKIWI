@@ -13,7 +13,7 @@
     0 0 * * * java -jar "le nom mon jar"
     
    Le projet permet d'éffectuer chaque soir les tâches suivantes :
-   - Vérifier si une commit a été réalisé depuis le dernier déploiement
+   - Vérifier si une commit a été réalisé depuis le dernier déploiement (branche + répo)
    - Si besoin récupérer le nouveau code
    - Sauvegarder l'ancienne solution
    - Supprimer l'ancien projet déployé
@@ -36,6 +36,7 @@
   Le projet n'est que en phase d'alpha voici quelques modifications à apporter :
   - Externaliser le fichier d'historique des déploiements et le rendre configurable
   - Créer des logs dans un fichier afin d'avoir de tracer les actions du programme
+  - Contrôler les paramètres d'entrées
   - Créer une architecture plus maintenanble en séparant les fonctionnalités
   - Créer une tâche plannifiée à la place d'un JAR éxécutable et déployer le projet sur un serveur d'application (glassfish...)
   
@@ -45,6 +46,6 @@
  AWS permet de créer un pipeline de déploiement continu. Elle récupére le projet sur une branche spécifique d'un projet git
  (example prod) et permet de le déployer sur un serveur.
  
- Cette solution comporte que des points positifs. Cependant, elle nécéssite d'upload que le dossier "dist" sur la branche Git. 
- 
+ Cette solution comporte que des points positifs et ne nécéssite pas de développement spécifique. Cependant, il ne faudrait téléverser que le dossier "dist" sur la branche Git. 
+
  Certaines actions comme le grunt build serait encore a réalser manuellement et les commits seraient compliqués.
