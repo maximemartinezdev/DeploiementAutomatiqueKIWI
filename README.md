@@ -26,7 +26,7 @@
  
 ## Point negatif
   
-  Ce projet est codé de A-Z. Il est donc très dépendant de la personne qui la développée. Il n'héssite certains prérequis :
+  Ce projet est codé de A-Z. Il est donc très dépendant de la personne qui la développée. Il nécéssite certains prérequis :
    - Avoir une jre sur le serveur
    - Avoir node et npm installés
    - Avoir des connaissances en JAVA
@@ -36,6 +36,7 @@
   Le projet n'est que en phase d'alpha voici quelques modifications à apporter :
   - Externaliser le fichier d'historique des déploiements et le rendre configurable
   - Créer des logs dans un fichier afin d'avoir de tracer les actions du programme
+  - Commenter le code
   - Contrôler les paramètres d'entrées
   - Créer une architecture plus maintenanble en séparant les fonctionnalités
   - Créer une tâche plannifiée à la place d'un JAR éxécutable et déployer le projet sur un serveur d'application (glassfish...)
