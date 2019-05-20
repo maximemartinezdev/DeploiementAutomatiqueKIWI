@@ -2,7 +2,7 @@
 
 # Solution 1
 
-## Explication
+## Explications
 
   Attention le projet n'est pas fonctionnel ! et va être sujet à des modifications/améliorations !
   
@@ -24,14 +24,14 @@
   
   La JavaDOC est générée dans le dossier /doc
  
-## Point negatif
+## Points negatifs
   
   Ce projet est codé de A-Z. Il est donc très dépendant de la personne qui la développée. Il nécéssite certains prérequis :
    - Avoir une jre sur le serveur
    - Avoir node et npm installés
    - Avoir des connaissances en JAVA
    
-## Axes d'amélioration
+## Axes d'améliorations
 
   Le projet n'est que en phase d'alpha voici quelques modifications à apporter :
   - Externaliser le fichier d'historique des déploiements et le rendre configurable
